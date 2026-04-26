@@ -51,10 +51,6 @@ Audiq currently supports the following streaming and music content platforms:
 ## Features
 
 - Global slash command registration for Discord
-- `/setup` command to configure the target music channel
-- `/suggest` command to submit song links and generate shareable artwork
-- `/ping` command to check bot latency
-- `/help` command to list available commands
 - Dynamic language selection through environment variables
 - Centralized text dictionary (`src/config/dictionary.json`)
 
