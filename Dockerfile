@@ -1,11 +1,9 @@
 FROM node:20-slim
 
-# Install Python, make, g++, build tools + Chromium dependencies
 RUN apt-get update && apt-get install -y \
     python3 \
     make \
     g++ \
-    libgobject-2.0-0 \
     libglib2.0-0 \
     libnss3 \
     libnspr4 \
@@ -27,6 +25,7 @@ RUN apt-get update && apt-get install -y \
     libcairo2 \
     libasound2 \
     libexpat1 \
+    fonts-liberation \
     --no-install-recommends \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
