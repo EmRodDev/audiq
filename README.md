@@ -2,7 +2,7 @@
 
 <br />
 <div align="center">
-  <img src="src/assets/logo.png" alt="Audiq logo" width="120" style="border-radius: 50%;" />
+  <img src="src/assets/logo.png" alt="Audiq logo" width="120"/>
   <h1 align="center">Audiq</h1>
   <p align="center">
     A Discord music suggestion bot with slash commands, auto-generated song cards and multi-language support.
@@ -30,10 +30,21 @@
 </details>
 
 ## About The Project
+<div align="center">
+  <img src="src/assets/example.png" alt="Audiq logo" width="400"/>
+</div>
+
 
 Audiq is a Discord bot built for music communities. It lets users suggest songs via slash commands, generates attractive card previews for each suggestion, and posts them into a configured channel.
 
 The bot uses a centralized dictionary for all user-facing text, making it easy to add new languages and keep command descriptions, replies, and error messages in one place.
+
+Audiq currently supports the following streaming and music content platforms:
+
+- Spotify
+- YouTube
+- YouTube Music
+- SoundCloud
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -46,8 +57,6 @@ The bot uses a centralized dictionary for all user-facing text, making it easy t
 - `/help` command to list available commands
 - Dynamic language selection through environment variables
 - Centralized text dictionary (`src/config/dictionary.json`)
-- Transparent PNG song cards with extracted album/artwork colors
-- Support for Spotify, YouTube, YouTube Music, and SoundCloud content
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
