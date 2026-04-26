@@ -1,0 +1,106 @@
+{
+  "en_US": {
+    "commands": {
+      "suggest": {
+        "description": "Suggest a song for the bot to play.",
+        "options": {
+          "link": {
+            "description": "The name or URL of the song you want to suggest."
+          },
+          "vote": {
+            "description": "Enable voting on this suggestion."
+          }
+        },
+        "errors": {
+          "config_not_found": "The configuration file was not found. Please run the /setup command first.",
+          "channel_id_not_found": "Channel ID not found. Please run the /setup command first.",
+          "invalid_url": "Invalid URL. Please provide a valid song URL.",
+          "processing_error": "There was an error processing your suggestion: {{error}}. Please try again later or use another link.",
+          "generic_error": "There was an error processing your suggestion. Please try again."
+        },
+        "success": "Done!",
+        "listen": "Listen",
+        "suggested_by": "Suggested by"
+      },
+      "setup": {
+        "description": "Set up the bot for your server.",
+        "options": {
+          "channel": {
+            "description": "The channel where the bot will play music."
+          }
+        },
+        "errors": {
+          "no_permission": "You don't have permission to use this command."
+        },
+        "success": "Done!"
+      },
+      "ping": {
+        "description": "Replies with bot latency.",
+        "replies": {
+          "pong": "Pong! API latency is {{latency}}ms."
+        }
+      },
+      "help": {
+        "description": "Shows the available commands.",
+        "replies": {
+          "available_commands": "Available commands:"
+        }
+      }
+    },
+    "errors": {
+      "command_execution_error": "There was an error while executing this command."
+    }
+  },
+  "es_UY": {
+    "commands": {
+      "suggest": {
+        "description": "Sugerir una canción para que el bot toque.",
+        "options": {
+          "link": {
+            "description": "El nombre o URL de la canción que deseas sugerir."
+          },
+          "vote": {
+            "description": "Habilitar votación en esta sugerencia."
+          }
+        },
+        "errors": {
+          "config_not_found": "El archivo de configuración no fue encontrado. Por favor, ejecuta el comando /setup primero.",
+          "channel_id_not_found": "ID del canal no encontrado. Por favor, ejecuta el comando /setup primero.",
+          "invalid_url": "URL inválida. Por favor, proporciona una URL de canción válida.",
+          "processing_error": "Hubo un error al procesar tu sugerencia: {{error}}. Por favor, intenta más tarde o usa otro enlace.",
+          "generic_error": "Hubo un error al procesar tu sugerencia. Por favor, intenta de nuevo."
+        },
+        "success": "¡Listo!",
+        "listen": "Escuchar",
+        "suggested_by": "Sugerido por"
+      },
+      "setup": {
+        "description": "Configurar el bot para tu servidor.",
+        "options": {
+          "channel": {
+            "description": "El canal donde el bot tocará música."
+          }
+        },
+        "errors": {
+          "no_permission": "No tienes permiso para usar este comando."
+        },
+        "success": "¡Listo!"
+      },
+      "ping": {
+        "description": "Responde con la latencia del bot.",
+        "replies": {
+          "pong": "¡Pong! La latencia de la API es {{latency}}ms."
+        }
+      },
+      "help": {
+        "description": "Muestra los comandos disponibles.",
+        "replies": {
+          "available_commands": "Comandos disponibles:"
+        }
+      }
+    },
+    "errors": {
+      "command_execution_error": "Hubo un error al ejecutar este comando."
+    }
+  }
+}

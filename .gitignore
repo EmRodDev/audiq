@@ -1,0 +1,4 @@
+node_modules
+.env
+src/config/data.json
+src/temp

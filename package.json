@@ -1,0 +1,27 @@
+{
+  "name": "audiq",
+  "version": "1.0.0",
+  "description": "Audiq Discord bot with slash commands.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "bot"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "colorthief": "^3.3.1",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.5",
+    "node-html-to-image": "^5.0.0",
+    "play-dl": "^1.9.7",
+    "sharp": "^0.34.5",
+    "soundcloud-scraper": "^5.0.3"
+  }
+}
