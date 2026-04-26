@@ -201,6 +201,9 @@ async function createCard(link, avatarLink, username) {
                 document.documentElement.style.background = 'transparent';
                 document.body.style.background = 'transparent';
             });
+        },
+        puppeteerArgs: {
+            args: ['--no-sandbox', '--disable-setuid-sandbox']
         }
     });
 
