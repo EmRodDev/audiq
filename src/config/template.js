@@ -12,8 +12,9 @@ module.exports = {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
-            font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+            font-family: 'Roboto', sans-serif;
         }
+
 
         body {
             width: 800px;
