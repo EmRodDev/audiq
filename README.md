@@ -142,7 +142,7 @@ If `src/config/data.json` does not exist, it will be created automatically.
 - `/suggest link:<song-url> [vote:true/false]`
   - Suggests a song by URL or link.
   - Generates a visual song card and posts it to the configured channel.
-  - Optional `vote` parameter: when set to `true`, adds a 💎 reaction to the suggestion card for voting/rating.
+  - Optional `vote` parameter: when set to `true` (default), adds a 💎 reaction to the suggestion card for voting/rating.
 
 - `/ping`
   - Replies with the current Discord API latency.

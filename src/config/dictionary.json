@@ -26,7 +26,7 @@
         "description": "Set up the bot for your server.",
         "options": {
           "channel": {
-            "description": "The channel where the bot will play music."
+            "description": "The channel where the bot will suggest music."
           }
         },
         "errors": {
@@ -78,7 +78,7 @@
         "description": "Configurar el bot para tu servidor.",
         "options": {
           "channel": {
-            "description": "El canal donde el bot tocará música."
+            "description": "El canal donde el bot sugerirá música."
           }
         },
         "errors": {
