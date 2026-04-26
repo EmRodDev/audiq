@@ -76,7 +76,7 @@ module.exports = {
 
       const vote = interaction.options.getBoolean("vote");
 
-      if(vote) {
+      if(!vote) {
         await msg.react("💎");
       }
 
